@@ -1,7 +1,6 @@
 
 all:
-	read -p "enter commit message: " msg
-	make "updated: $$msg"
+	read -p "enter commit message: " msg && make "updated: $$msg"
 
 %:
 	git add .
