@@ -43,7 +43,7 @@ HTML, BODY {
 	vertical-align:middle;
 	box-sizing:border-box;
 	background-color:rgba(0,0,0,0.4);
-	padding:36vh 0;
+	padding:35vh 0;
 }
 .content A:hover {
 	background-color:rgba(0,0,0,0.7);
@@ -52,10 +52,10 @@ HTML, BODY {
 	display:block;
 }
 .content A SPAN:nth-child(1) {
-	font-size:6rem;
+	font-size:5rem;
 	font-weight:200;
 }
 .content A SPAN:nth-child(2) {
-	font-size:2rem;
+	font-size:1.8rem;
 	font-weight:300;
 }
