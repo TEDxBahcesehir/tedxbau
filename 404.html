@@ -10,12 +10,12 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="mobile-web-app-capable" content="yes">
 		<script type="text/javascript" >
-			switch(window.location.pathname) {
-				case "/partnerlikimkanlari":
-					window.location = "//2017.tedxbahcesehir.com/#partners";
+			switch(true) {
+				case (window.location.pathname == "/partnerlikimkanlari"):
+					window.location = "//2017.tedxbahcesehir.com/partnerlik";
 					break;
 				default:
-					document.body.innerHTML = "oops a problem occured";
+					window.location = "//2017.tedxbahcesehir.com" + window.location.pathname + window.location.hash;
 					break;
 			}
 		</script>
