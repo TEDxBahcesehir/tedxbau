@@ -92,10 +92,6 @@ h1,h2,h3,h4,h5,h6 {
 	line-height:1.5em;
 }
 
-input,button,select,textarea{
-	
-}
-
 p{
 	position:relative;
 	line-height:1.9em;	
@@ -160,7 +156,7 @@ ul,li{
 
 .social-icon-one li a{
 	font-size:18px;
-	color:#e0e0e0;
+	color:#989898;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -851,7 +847,7 @@ img{
 .main-menu .navigation > li{
 	position:relative;
 	display:inline-block;
-	float:left;
+	float:none;
 	padding:0px 0px;
 	margin-left:30px;
 }
@@ -1594,7 +1590,7 @@ img{
 	font-size:13px;
 	font-weight:600;
 	letter-spacing:2px;
-	color:#bababa;
+	color:#989898;
 	margin-bottom:20px;
 	text-transform:uppercase;
 }
