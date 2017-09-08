@@ -108,6 +108,7 @@ p{
 	margin:0 auto;
 }
 
+
 .medium-container{
 	max-width:850px;
 }
@@ -1433,6 +1434,34 @@ img{
 .about-section .btns-box a{
 	margin-bottom:10px;
 }
+
+
+/*** 
+
+====================================================================
+	Application Form Section
+====================================================================
+
+***/
+.application-form-section{
+	position: relative;
+	/* padding: 100px 0px 0px; */
+	width: 100%;
+}
+
+.application-form-section .freebirdFormviewerViewFormBanner{
+	width: 100%;
+	height: 100%;
+}
+
+.application-form-section iframe.form{
+	width: 100%;
+	height: 975px;
+
+}
+
+
+
 
 /*** 
 
