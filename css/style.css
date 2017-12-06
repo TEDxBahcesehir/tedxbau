@@ -83,6 +83,15 @@ a:hover,a:focus,a:visited{
 	outline:none;
 }
 
+.sponsors-section .sponsors-box h1{
+	position:relative;
+	font-size:30px;
+	color:#222222;
+	font-weight:600;
+	text-align:center;
+	text-transform:capitalize;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	position:relative;
 	font-family: 'Poppins', sans-serif;
@@ -1652,6 +1661,19 @@ img{
 .sponsors-section .sponsors-box{
 	position:relative;
 	margin-bottom:30px;
+}
+
+.sponsors-section .sponsors-box .sec-title h2{
+	position:relative;
+	color:#222222;
+	font-size:30px;
+	font-weight:700;
+	z-index:10;
+	padding-bottom:15px;
+	margin-bottom:25px;
+	text-transform:capitalize;
+	font-family: 'Poppins', sans-serif;
+	
 }
 
 .sponsors-section .sponsors-box:last-child{
