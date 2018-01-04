@@ -277,11 +277,11 @@ ul,li{
 .btn-style-one{
 	position:relative;
 	padding:10px 40px;
-	line-height:24px;
+	line-height:30px;
 	text-transform:uppercase;
 	background:#ff2b06;
 	color:#ffffff;
-	font-size:17px;
+	font-size:30px;
 	font-weight:500;
 	border-radius:50px;
 	/* border:2px solid #ff2b06; */
@@ -1220,7 +1220,7 @@ img{
 }
 
 .main-slider h2{
-	font-weight:700;
+	font-weight:500;
 	color:#ffffff;
 	font-size:56px;
 	line-height:1.1em;
@@ -1229,10 +1229,10 @@ img{
 }
 
 .main-slider .sub-title{
-	font-weight:600;
+	font-weight:700;
 	line-height:1.4em;
 	color:#ffffff;
-	font-size:16px;
+	font-size:20px;
 	text-transform:uppercase;
 	font-family: 'Open Sans', sans-serif;
 }
