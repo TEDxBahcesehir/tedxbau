@@ -753,11 +753,11 @@ img{
 
 .header-style-two{
 	position:relative;
-	background-color:#ffffff;
+	background-color:#000000;
 }
 
 .header-style-two .main-menu .navigation > li > a{
-	color:#666666;
+	color:#ffffff;
 	padding:45px 0px;
 }
 
@@ -3447,7 +3447,7 @@ img{
 
 .fullwidth-gallery{
 	position:relative;
-	padding:100px 0px 120px;
+	padding:50px 0px 50px;
 }
 
 .fullwidth-gallery .filters{

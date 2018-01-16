@@ -192,6 +192,7 @@
 		padding-right:0px;	
 	}
 	
+	
 	.main-header .nav-outer .don-btn-outer{
 		left:0px;
 		top:30px;
@@ -567,6 +568,11 @@
 	
 	.schedule-carousel-outer .slide-item .speaker{
 		width:100%;	
+	}
+
+	.main-header .auto-container{
+		position:relative;	
+		background: black;
 	}
 
 	/* .application-form-section .freebirdFormviewerViewFormBanner {
