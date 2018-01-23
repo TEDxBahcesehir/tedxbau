@@ -1568,7 +1568,7 @@ img{
 
 .team-section{
 	position:relative;
-	padding:120px 0px 60px;
+	padding:50px 0px 50px;
 }
 
 .team-member{
@@ -1625,7 +1625,7 @@ img{
 	font-size:13px;
 	font-weight:600;
 	letter-spacing:2px;
-	color:#989898;
+	color:#727272;
 	margin-bottom:20px;
 	text-transform:uppercase;
 }
@@ -1637,6 +1637,93 @@ img{
 }
 
 .team-member .inner-box:hover .image img{
+	-o-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
+/*** 
+
+====================================================================
+	Team Section
+====================================================================
+
+***/
+
+.team-list-section{
+	position:relative;
+	padding:50px 0px 50px;
+}
+
+.team-list{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.team-list .inner-box{
+	position:relative;
+	padding:30px 0px 0px;
+	text-align:center;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.team-list .inner-box .image{
+	position:relative;
+	width:259px;
+	height:259px;
+	margin:0 auto;
+	overflow:hidden;
+	/* border-radius:50%; */
+	margin-bottom:25px;
+}
+
+.team-list .inner-box .image img{
+	width:100%;
+	display:block;
+	/* -o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.team-list .inner-box h3{
+	position:relative;
+	font-size:22px;
+	color:#222222;
+	font-weight:600;
+	margin-bottom:3px;
+}
+
+.team-list .inner-box .designation{
+	position:relative;
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:2px;
+	color:#727272;
+	margin-bottom:20px;
+	text-transform:uppercase;
+}
+
+/* .team-list .inner-box:hover{
+	-webkit-box-shadow:0px 0px 20px 2px rgba(204,204,204,0.6);
+	-moz-box-shadow:0px 0px 20px 2px rgba(204,204,204,0.6);
+	box-shadow:0px 0px 20px 2px rgba(204,204,204,0.6);
+} */
+
+.team-list .inner-box:hover .image img{
 	-o-filter: grayscale(0%);
 	-ms-filter: grayscale(0%);
 	-moz-filter: grayscale(0%);
@@ -2548,6 +2635,9 @@ img{
 }
 
 .team-member-two .inner-box .image{
+	width:259px;
+	height:259px;
+	margin:0 auto;
 	position:relative;
 	overflow:hidden;
 }
