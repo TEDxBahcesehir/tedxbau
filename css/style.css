@@ -1707,6 +1707,18 @@ img{
 	margin-bottom:3px;
 }
 
+.team-list-section .team-box .sec-title h2{
+	position: relative;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    z-index: 10;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
 .team-list .inner-box .designation{
 	position:relative;
 	font-size:13px;
@@ -1715,6 +1727,12 @@ img{
 	color:#727272;
 	margin-bottom:20px;
 	text-transform:uppercase;
+}
+
+.team-list .sec-title h2{
+	position: relative;
+	text-align: center;
+	
 }
 
 /* .team-list .inner-box:hover{
