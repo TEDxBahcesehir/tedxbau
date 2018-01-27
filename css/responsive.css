@@ -47,6 +47,11 @@
 		width:100%;
 		margin-top:0px;
 	}
+
+	.main-menu .navigation{
+		position: relative;
+		margin-left: 8%;
+	}
 	
 	.main-menu .navigation > li{
 		padding:0px;
@@ -89,16 +94,23 @@
 	.header-style-two .btn-outer .dropdown-menu{
 		top:80px;
 	}
+
+	.main-header .auto-container{
+		position:relative;	
+		background: black;
+	}
 	
 }
 
 @media only screen and (min-width: 768px){
+
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
 		display:block !important;
 		visibility:hidden;
 		opacity:0;
 	}
+	
 }
 
 @media only screen and (max-width: 1023px){
@@ -499,6 +511,11 @@
 		top:30px;
 		padding-left:0px;
 	}
+
+	.main-header .auto-container{
+		position:relative;	
+		background: black;
+	}
 	
 	.news-style-one .inner-box .lower-box .two-column .content-column{
 		margin-top:25px;
@@ -531,6 +548,11 @@
 	.subscribe-section .subscribe-form .form-group input[type="submit"],
 	.subscribe-section .subscribe-form button{
 		width:100%;
+	}
+
+	.main-header .auto-container{
+		position:relative;	
+		background: black;
 	}
 	
 }
