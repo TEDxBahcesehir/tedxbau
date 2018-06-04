@@ -201,15 +201,12 @@
 @media only screen and (max-width: 767px){
 	
 	.canli-yayin{
-		padding: 0;
+		padding: 10px 5px;
 	}
 
-	.canli-yayin .youtube-canliyayin{
+	#y-iframe{
 		width: 100%;
-	}
-
-	iframe{
-		width: 100%;
+		height: 50vh;
 	}
 
 	.header-style-one .nav-outer{

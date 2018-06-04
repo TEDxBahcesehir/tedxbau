@@ -3941,17 +3941,11 @@ img{
 ***/
 
 .canli-yayin{
-	position: relative;
-	text-align: center;
 	padding: 70px 60px;
-	height: 120vh;
+	text-align: center;
 }
 
-.canli-yayin .youtube-canliyayin{
-	position: relative;
-}
-
-iframe{
-	width: 100%;
-	height: 100vh;
+body > div.page-wrapper > section.canli-yayin > div > iframe{
+	width: 100% !important;
+	height: 100vh !important;
 }
